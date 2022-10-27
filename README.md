@@ -1,6 +1,6 @@
 # Grid
 ![image](https://user-images.githubusercontent.com/99693673/198290135-51a39c5a-bc72-4d9e-a81d-9dad7a9c9605.png)
-Link do Projeto: [challenge] https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=39819%3A780
+Link do Projeto: [challenge](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=39819%3A780)
 
 ## 🚀 Start the Project
 
