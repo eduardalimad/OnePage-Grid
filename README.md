@@ -1,6 +1,8 @@
 # Grid
 
-## Build Setup
+## 🚀 Start the Project
+
+git clone https://github.com/eduardalimad/OnePage-Grid.git
 
 ```bash
 # install dependencies
