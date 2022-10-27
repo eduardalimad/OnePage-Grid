@@ -5,7 +5,7 @@
 git clone https://github.com/eduardalimad/OnePage-Grid.git
 
 ```bash
-# install dependencies
+# After use powershel or outher terminal for the commands:
 $ yarn install
 
 # serve with hot reload at localhost:3000
