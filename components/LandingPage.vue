@@ -2,7 +2,7 @@
   <div class="container">
     <div class="header">
       <div class="header-left">
-        <h3>Lorem ipsum dolor sit amet</h3>
+        <h2>Lorem ipsum dolor sit amet</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu
           massa sit amet augue consectetur ullamcorper non ac massa.
@@ -11,7 +11,7 @@
       </div>
       <div class="header-right">
         <img
-          src="..\public\img\imgHeader.svg"
+          src="..\assets\img\imgHeader.svg"
           alt="imagem de caixas "
           style="width: auto; max-width: 70%"
         />
@@ -66,10 +66,7 @@
         <div class="grid-item">
           <div
             class="wallpaper-blue"
-            style="
-              background-color: rgba(102, 99, 255, 1);
-              width: 200px;
-              height: 8rem;
+            style="background-color: blue; width: 200px; height: 8rem;
             "
           ></div>
           <h3>Título do card</h3>
@@ -81,11 +78,7 @@
         <div class="grid-item">
           <div
             class="wallpaper-pink"
-            style="
-              background-color: rgba(243, 99, 255, 1);
-              width: 200px;
-              height: 8rem;
-            "
+            style="background-color: pink; width: 200px;height:8rem;"
           ></div>
           <h3>Título do card</h3>
           <p>
@@ -114,11 +107,14 @@
   </div>
 </template>
 <style >
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 html,
 body {
   padding: 0px;
   margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
+
+  
 }
 .container {
   width: 100%;
@@ -140,6 +136,7 @@ body {
   border: none;
   border-radius: 0.3rem;
   color: white;
+  margin-left: 3%;
 }
 .main {
   height: auto;
@@ -160,9 +157,9 @@ body {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }
 p,
-h3 {
+h2,h3 {
   padding: 2%;
-  margin-left: 2%;
+  margin-left: 3%;
 }
 .footer {
   display: grid;
@@ -219,6 +216,10 @@ input {
     flex-wrap: wrap;
   }
   input {
+    width: 270px;
+    height: 30px;
+  }
+  .input-mensagem {
     width: 270px;
     height: 30px;
   }
